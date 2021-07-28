@@ -1,11 +1,9 @@
 
-num1 = int(input("Enter First Number "))
-
-operation = input("Enter Operation ")
-
-num2 = int(input("Enter Second Number "))
-
 while True:
+    num1 = int(input("Enter First Number "))
+    operation = input("Enter Operation ")
+    num2 = int(input("Enter Second Number "))
+
     if operation == '+':
         print(num1 + num2)
 
@@ -26,13 +24,6 @@ while True:
 
     else:
         print("Syntax Error")
-
-
-num1 = int(input("Enter First Number "))
-
-operation = input("Enter Operation ")
-
-num2 = int(input("Enter Second Number "))
 
 
     
