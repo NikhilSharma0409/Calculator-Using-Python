@@ -1,38 +1,33 @@
 # Calculator-Using-Python
 
-# Taking Input From User.
-
-num1 = int(input("Enter First Number"))
-operation = input("Enter Operation")
-num2 = int(input("Enter Second Number"))
-
 while True:
+
+  # Taking Input From User.
+
+  num1 = int(input("Enter First Number"))
+  operation = input("Enter Operation")
+  num2 = int(input("Enter Second Number"))
   
-    # Checking Conditions.
-    
-    if operation == '+':
-        print(num1 + num2)
+  # Checking Conditions.
 
-    elif operation == '-':
-        print(num1 - num2)
+  if operation == '+':
+      print(num1 + num2)
 
-    elif operation == '*':
-        print(num1 * num2)
+  elif operation == '-':
+      print(num1 - num2)
 
-    elif operation == '/':
-        print(num1 / num2)
+  elif operation == '*':
+      print(num1 * num2)
 
-    elif operation == '//':
-        print(num1 // num2)
+  elif operation == '/':
+      print(num1 / num2)
 
-    elif operation == '**':
-        print(num1 ** num2)
+  elif operation == '//':
+      print(num1 // num2)
 
-    else:
-        print("Syntax Error")
-        
-# Taking Input From User. (AGAIN)
+  elif operation == '**':
+      print(num1 ** num2)
 
-num1 = int(input("Enter First Number "))
-operation = input("Enter Operation ")
-num2 = int(input("Enter Second Number "))
+  else:
+      print("Syntax Error")
+
